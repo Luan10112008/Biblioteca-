@@ -1,0 +1,9 @@
+Trecho de referência para AndroidManifest.xml.
+Insira as permissões dentro de <manifest>, antes de <application>.
+Não substitua o AndroidManifest.xml inteiro por este trecho.
+
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+<uses-permission
+    android:name="android.permission.READ_EXTERNAL_STORAGE"
+    android:maxSdkVersion="32" />
